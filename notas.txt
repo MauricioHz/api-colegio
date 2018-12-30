@@ -1,0 +1,22 @@
+
+POST
+http://127.0.0.1:8000/api/auth/login
+
+Content-Type: application/json
+X-Requested-With: XMLHttpRequest
+
+{
+"email" : "alfa@mail.com",
+"password" : "123123",
+"remember_me" : true
+}
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjMyYmUwMmMxZWNjNDNjYzI4MGEwNzI3ZWMyNjg0OTE1ZTU3ZTdlZGMxNGUxMjQzMmQ0OWI5Y2IyNzE5YzFhNTcwNzMwMTEwMGJkNTY3Y2QwIn0.eyJhdWQiOiIxIiwianRpIjoiMzJiZTAyYzFlY2M0M2NjMjgwYTA3MjdlYzI2ODQ5MTVlNTdlN2VkYzE0ZTEyNDMyZDQ5YjljYjI3MTljMWE1NzA3MzAxMTAwYmQ1NjdjZDAiLCJpYXQiOjE1NDYyMDI1NTcsIm5iZiI6MTU0NjIwMjU1NywiZXhwIjoxNTc3NzM4NTU3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.ZOHGyON84FPPa8f3XddkKvwDTRqShV_WpYS4lV-x2FAy2XDC8G89-AL1fyQrwDqkuGJSVvACWGVwhzJapvbDAhyel3e1OiA3tgNPlwzIVXPLGARoWbvnJ-gp72nOfYF--7Tv43ywJNFI-oOJ42kiX2PHrgF5CX_bHiFC3FQWU5EWT2o3bwWRDf67hID3_RQzRllhLv8nvNV95gvoYm-MwXh1teXw5FKmQB0F1Oe9wbbs-dteYrg1iDd5EwAk2y1WrreCUu9LqKTEkFORkp-SrRJbHXrMi_3Ec50KXKhPcLu3nsHV3w_cQ-nf2E1N_kOHYqwRPxhmZu4VltIPCXBkayc4mpvRYnBHZ2cVqXfznycO_Zh2zhrYJqF4Qvj5y5FGV4dIvzc1FjSaZlB3HjMV3B3LTMMl4qcQCy_hmxzL9MsVuaqRzKixWeETD2ofOwUoxfDcLFFUC7lGitfT6Z_FC9poSLwtVcAp8_6qu7UGnuyYzBLJIWmK-KFW9NwQNJ5jbp3peLG3O1PDzw3u6k2oZFIn6p1ARctsRET_t2ORl528QPks3DZ7zwPIf7PRVtcKRrBcMHlWLJCI1fA1HHwzF8H4lMwMkxsyU05DgPJ-pPKnqPpwrU7zxQcOGQuZDD6jGeHAeQi7bSksFWXwU2JJcfkS-vwexqXPMKa-jAnnYCo
+
+git --version
+git config -global user.name "sabskdks"
+git config -global user.mail "sabskdks"
+
+// alias
+git config --global alias.lg "log --oneline --decorate --all --graph"
+git config --global alias.s "status --s"
