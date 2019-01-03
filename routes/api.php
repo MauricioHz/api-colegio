@@ -32,6 +32,8 @@ Route::group(['prefix' => 'auth'], function () {
         Route::get('home', 'HomeController@index');
         Route::get('dispositivo', 'UserDeviceController@index');
         Route::post('store-dispositivo', 'UserDeviceController@store');
+
+        Route::get('schools', 'SchoolController@index');
     });
 });
 
