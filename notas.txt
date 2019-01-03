@@ -20,3 +20,8 @@ git config -global user.mail "sabskdks"
 // alias
 git config --global alias.lg "log --oneline --decorate --all --graph"
 git config --global alias.s "status --s"
+
+// Guardando el estado de nuestro proyecto
+git add .
+
+git init

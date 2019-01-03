@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $array = array('saludo' => 'hola');
+        $array = array('saludo' => 'hola...');
         return response()->json($array, 201);
     }
 }
