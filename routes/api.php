@@ -34,6 +34,7 @@ Route::group(['prefix' => 'auth'], function () {
         Route::post('store-dispositivo', 'UserDeviceController@store');
 
         Route::get('schools', 'SchoolController@index');
+        Route::post('schools/create', 'SchoolController@store');
     });
 });
 
